@@ -1,0 +1,7 @@
+{
+  "name": "Copy of VisionAR: Web 3D & AR Viewer",
+  "description": "A high-performance 3D model viewer with Augmented Reality capabilities, allowing users to view preset primitives or upload custom GLB models.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
