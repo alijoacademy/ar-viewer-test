@@ -9,12 +9,7 @@ export interface ModelConfig {
   description: string;
 }
 
-export interface ChatMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
-
-// Augment the global JSX namespace to include the custom 'model-viewer' element
+// Fix invalid module augmentation error by using declare global for custom element support in JSX
 declare global {
   namespace JSX {
     interface IntrinsicElements {
